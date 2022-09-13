@@ -5,7 +5,7 @@ n=7;                    % number of different types of elements in sequence
 
 lambda=0.1;             % estimate to deviate no more than lambda*F_k
 epsilon=0.1;            % probability that estimate will be within bounds
-numTrials = 1;          % for running multiple trials
+numTrials = 10;          % for running multiple trials
 numSuccesses = [0,0];   % counts successes of rTwoCounter and rGeneralCounter
 twoMoment = 0;
 kMoment = 0;

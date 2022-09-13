@@ -67,7 +67,7 @@ classdef rTwoCounter
                     'less than m data inputs given');
                 throw(ME)
             end
-            obj.X = VecToMat(obj.Z,obj.s1);
+            obj.X = reshape(obj.Z,[ceil(length(obj.Z)/obj.s1),obj.s1]);
             obj.X = obj.X.^2;
             obj.Y = mean(obj.X,2);
             moment = median(obj.Y);
