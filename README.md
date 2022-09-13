@@ -7,7 +7,7 @@ Here we give an implementation of the famous online algorithm approximating the 
 We implement both the 2nd and kth moment randomized algorithms, as well as a deterministic kth moment algorithm. We also provide accuracy-testing scripts.
 
 ## How to Run
-To run the tests comparing the two randomized alorithms agains the exact value, run the file:
+To run tests comparing the two randomized alorithms to the exact value, run the file:
 ```
 counterTest.m
 ```
