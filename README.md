@@ -16,7 +16,7 @@ Runs tests on the accuracy of the $2^\text{nd}$ and $k^\text{th}$ moment approxi
 counterTest.m
 ```
 
-Implementation of a class for the deterministic and exact moment calculater:
+Implementation of a class for the deterministic/exact moment calculater:
 ```
 dCounter.m
 ```
