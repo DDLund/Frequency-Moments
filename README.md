@@ -6,6 +6,9 @@ Here we give an implementation of the famous online algorithm approximating the 
 
 We implement both the 2nd and kth moment randomized algorithms, as well as a deterministic kth moment algorithm. We also provide accuracy-testing scripts.
 
+## Frequency Moments and their Approximations
+Consider a dataset consisting of a string of length m, where each element is one of n unique characters. 
+
 ## How to Run
 To run tests comparing the two randomized alorithms to the exact value, run the file:
 ```
