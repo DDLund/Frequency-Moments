@@ -13,7 +13,7 @@ Consider a dataset consisting of a string of length $m$, where each element is o
 ## Contents/How to Run
 The repository contains three classes that calcuate frequency moments from a data stream (two random and one deterministic), and a testing script.
 
-Runs tests on the accuracy of the $2^\text{nd}$ and $k^\text{th}$ moment approximation algorithms. Tests to see if the approximations are within the stipuated accuracy bounds as given in [The Space Complexity of Approximating the Frequency Moments](https://www.sciencedirect.com/science/article/pii/S0022000097915452).
+Runs tests on the accuracy of the $2^\text{nd}$ and $k^\text{th}$ moment approximation algorithms. Tests to see if the approximations are within the stipuated accuracy bounds as given in [The Space Complexity of Approximating the Frequency Moments](https://www.sciencedirect.com/science/article/pii/S0022000097915452):
 ```
 counterTest.m
 ```
